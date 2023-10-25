@@ -5,7 +5,7 @@
 LOG_BEGIN ?= 0
 LOG_END ?= 0
 
-ARCH = ARCH=riscv64-noop
+ARCH = ARCH=riscv64-nutshell
 # ------------------------------------------------------------------
 
 SINGLETEST = recursion

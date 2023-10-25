@@ -39,7 +39,7 @@ object RVSNNInstr extends  HasInstrType{
         SGE         -> List(InstrSNNR,   FuType.snn,   SNNOpType.sge),
         RPOP        -> List(InstrSNNR,   FuType.snn,   SNNOpType.rpop),
         SLS         -> List(InstrSNNR,   FuType.snn,   SNNOpType.sls),
-        INF         -> List(InstrSNNsp,   FuType.snn,   SNNOpType.inf),
+        INF         -> List(InstrSNNsp,  FuType.snn,   SNNOpType.inf),
         SUP         -> List(InstrSNNR,   FuType.snn,   SNNOpType.sup),
         VLEAK       -> List(InstrSNNR,   FuType.snn,   SNNOpType.vleak),
         NADD        -> List(InstrSNNR,   FuType.snn,   SNNOpType.nadd),
